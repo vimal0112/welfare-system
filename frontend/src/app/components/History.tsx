@@ -11,7 +11,7 @@ import {
 } from "./ui/dialog";
 import jsPDF from "jspdf";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 type HistoryItem = {
   id: number;

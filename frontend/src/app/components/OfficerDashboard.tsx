@@ -69,7 +69,7 @@ function parseApplicationData(raw: string | null): ParsedApplicationData | null 
   }
 }
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 function getAuthHeaders(): Record<string, string> {
   const headers: Record<string, string> = {};
