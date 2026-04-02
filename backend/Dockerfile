@@ -1,5 +1,5 @@
-# Use Java 17
-FROM openjdk:17-jdk-slim
+# Use Java 17 (working image)
+FROM eclipse-temurin:17-jdk-alpine
 
 # Set working directory
 WORKDIR /app
@@ -11,4 +11,4 @@ COPY . .
 RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 
 # Run the jar
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
