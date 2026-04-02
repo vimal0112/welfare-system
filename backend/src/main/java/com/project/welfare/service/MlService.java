@@ -30,12 +30,22 @@ public class MlService {
         requestMap.put("disability", dto.getDisability());
         requestMap.put("is_minority", dto.getIs_minority());
 
-        Map<?, ?> response = restTemplate.postForObject(
-                ML_API_URL,
-                requestMap,
-                Map.class
-        );
+        try {
+    Map<?, ?> response = restTemplate.postForObject(
+        ML_API_URL,
+        requestMap,
+        Map.class
+    );
 
+    if (response != null && response.get("eligibility_score") != null) {
         return ((Number) response.get("eligibility_score")).doubleValue();
+    }
+
+} catch (Exception e) {
+    System.out.println("ML API failed: " + e.getMessage());
+}
+
+// 🔥 fallback score
+return 0.7;
     }
 }

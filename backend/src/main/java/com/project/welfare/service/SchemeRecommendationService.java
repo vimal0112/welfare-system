@@ -21,14 +21,11 @@ public class SchemeRecommendationService {
             WelfareRequestDto user,
             String eligibilityStatus) {
 
-        if (eligibilityStatus.equals("NOT_ELIGIBLE")) {
-            return List.of();
-        }
-
         List<SchemeListDto> allSchemes = schemeRepository.findAllForList();
         List<SchemeRecommendationDto> result = new ArrayList<>();
 
         for (SchemeListDto scheme : allSchemes) {
+
             Integer minAge = scheme.getMinAge();
             Integer maxAge = scheme.getMaxAge();
             Double maxIncome = scheme.getMaxIncome();
@@ -41,72 +38,92 @@ public class SchemeRecommendationService {
             boolean incomeMatch = (maxIncome == null || maxIncome <= 0 || user.getAnnual_income() <= maxIncome);
 
             boolean categoryMatch = matchesField(scheme.getCategory(), user.getCategory());
-
             boolean genderMatch = matchesField(scheme.getGender(), user.getGender());
 
             boolean locationMatch =
-                    matchesField(scheme.getLocation(), user.getState()) ||
+                    scheme.getLocation().equalsIgnoreCase("All") ||
+                    scheme.getLocation().equalsIgnoreCase("Rural") ||
+                    scheme.getLocation().equalsIgnoreCase("Urban") ||
                     isIndiaWide(scheme.getLocation());
 
             boolean occupationMatch = matchesField(scheme.getOccupation(), user.getOccupation());
-
             boolean disabilityMatch = matchesField(scheme.getDisabilityRequired(), user.getDisability());
-
             boolean minorityMatch = matchesField(scheme.getMinorityRequired(), user.getIs_minority());
 
-            if (ageMatch && incomeMatch && categoryMatch && genderMatch && locationMatch
-                    && occupationMatch && disabilityMatch && minorityMatch) {
+            // ✅ MATCH SCORE LOGIC
+            int matchScore = 0;
+
+            if (ageMatch) matchScore++;
+            if (incomeMatch) matchScore++;
+            if (categoryMatch) matchScore++;
+            if (genderMatch) matchScore++;
+            if (locationMatch) matchScore++;
+            if (occupationMatch) matchScore++;
+            if (disabilityMatch) matchScore++;
+            if (minorityMatch) matchScore++;
+
+            // ✅ Allow partial match (>= 5 conditions satisfied)
+            if (matchScore >= 5) {
 
                 StringBuilder reason = new StringBuilder();
 
-                if (minAge != null && minAge >= 60) {
-                    reason.append("Applicant age is above ").append(minAge).append(". ");
+                if (ageMatch) {
+                    reason.append("Age criteria matched. ");
                 }
 
-                if ("Farmer".equalsIgnoreCase(scheme.getOccupation())) {
-                    reason.append("Applicant is a farmer. ");
+                if (incomeMatch) {
+                    reason.append("Income within limit. ");
                 }
 
-                if (maxIncome != null && maxIncome > 0) {
-                    reason.append("Annual income is below ")
-                            .append(maxIncome.intValue())
-                            .append(". ");
+                if (categoryMatch) {
+                    reason.append("Category matched. ");
                 }
 
-                if ("Yes".equalsIgnoreCase(scheme.getDisabilityRequired())) {
-                    reason.append("Applicant has a disability. ");
+                if (genderMatch) {
+                    reason.append("Gender eligible. ");
                 }
 
-                if ("Yes".equalsIgnoreCase(scheme.getMinorityRequired())) {
-                    reason.append("Applicant belongs to a minority group. ");
+                if (occupationMatch) {
+                    reason.append("Occupation matched. ");
+                }
+
+                if ("Yes".equalsIgnoreCase(scheme.getDisabilityRequired())
+                        && "Yes".equalsIgnoreCase(user.getDisability())) {
+                    reason.append("Disability criteria matched. ");
+                }
+
+                if ("Yes".equalsIgnoreCase(scheme.getMinorityRequired())
+                        && "Yes".equalsIgnoreCase(user.getIs_minority())) {
+                    reason.append("Minority criteria matched. ");
                 }
 
                 result.add(
                         new SchemeRecommendationDto(
                                 scheme.getId(),
                                 scheme.getSchemeName(),
-                                reason.toString().trim()));
+                                reason.toString().trim()
+                        )
+                );
             }
         }
 
         return result;
     }
 
+    // ✅ FLEXIBLE MATCH FUNCTION
     private boolean matchesField(String schemeValue, String userValue) {
-        if (schemeValue == null || schemeValue.isBlank()) {
+
+        if (schemeValue == null || schemeValue.isBlank()) return true;
+
+        if (schemeValue.equalsIgnoreCase("ANY") ||
+            schemeValue.equalsIgnoreCase("ALL") ||
+            schemeValue.equalsIgnoreCase("GENERAL")) {
             return true;
         }
-        if (userValue == null || userValue.isBlank()) {
-            return false;
-        }
 
-        String normalizedSchemeValue = schemeValue.trim();
-        String normalizedUserValue = userValue.trim();
+        if (userValue == null || userValue.isBlank()) return false;
 
-        return normalizedSchemeValue.equalsIgnoreCase("ANY")
-                || normalizedSchemeValue.equalsIgnoreCase("ALL")
-                || normalizedSchemeValue.equalsIgnoreCase("GENERAL")
-                || normalizedSchemeValue.equalsIgnoreCase(normalizedUserValue);
+        return schemeValue.equalsIgnoreCase(userValue);
     }
 
     private boolean isIndiaWide(String location) {
