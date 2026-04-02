@@ -1,0 +1,201 @@
+rule_id,scheme_id,occupation_required,disability_required,minority_allowed
+R001,S020,Any,Yes,Yes
+R002,S092,Farmer,Any,No
+R003,S097,Senior Citizen,Yes,No
+R004,S040,Senior Citizen,No,Yes
+R005,S015,Farmer,Any,No
+R006,S124,Farmer,No,Yes
+R007,S097,Farmer,No,Yes
+R008,S132,Senior Citizen,Any,Yes
+R009,S045,Student,No,Yes
+R010,S081,Senior Citizen,Any,No
+R011,S013,Any,No,Yes
+R012,S008,Farmer,Any,Yes
+R013,S039,Farmer,No,Yes
+R014,S097,Any,Yes,Yes
+R015,S063,Senior Citizen,Yes,Yes
+R016,S150,Senior Citizen,Any,Yes
+R017,S089,Senior Citizen,No,Yes
+R018,S089,Unemployed,No,No
+R019,S096,Any,No,No
+R020,S083,Farmer,No,Yes
+R021,S046,Unemployed,Any,Yes
+R022,S093,Farmer,Any,No
+R023,S017,Unemployed,No,Yes
+R024,S028,Farmer,No,Yes
+R025,S105,Student,Any,No
+R026,S116,Student,Yes,Yes
+R027,S096,Unemployed,No,No
+R028,S037,Senior Citizen,Any,Yes
+R029,S021,Senior Citizen,No,Yes
+R030,S057,Any,No,Yes
+R031,S040,Unemployed,No,No
+R032,S072,Senior Citizen,Yes,No
+R033,S121,Unemployed,Any,No
+R034,S026,Student,Yes,Yes
+R035,S081,Unemployed,No,No
+R036,S016,Senior Citizen,Yes,No
+R037,S075,Student,Yes,Yes
+R038,S098,Student,No,Yes
+R039,S033,Unemployed,Yes,Yes
+R040,S121,Any,Any,Yes
+R041,S021,Farmer,No,No
+R042,S083,Senior Citizen,Any,No
+R043,S107,Student,No,Yes
+R044,S046,Unemployed,No,No
+R045,S044,Unemployed,Any,Yes
+R046,S023,Any,Any,Yes
+R047,S014,Farmer,Any,Yes
+R048,S023,Unemployed,Any,Yes
+R049,S123,Senior Citizen,Any,No
+R050,S015,Any,Yes,No
+R051,S111,Farmer,Yes,No
+R052,S148,Student,Yes,Yes
+R053,S109,Farmer,No,No
+R054,S113,Unemployed,Yes,No
+R055,S126,Senior Citizen,Any,No
+R056,S072,Student,No,No
+R057,S137,Farmer,Yes,No
+R058,S021,Farmer,Yes,Yes
+R059,S040,Unemployed,Yes,Yes
+R060,S126,Unemployed,No,No
+R061,S009,Senior Citizen,Yes,No
+R062,S112,Farmer,Yes,No
+R063,S045,Any,No,Yes
+R064,S109,Any,Yes,No
+R065,S046,Senior Citizen,Any,Yes
+R066,S138,Student,Any,Yes
+R067,S066,Unemployed,No,No
+R068,S048,Any,Yes,No
+R069,S055,Unemployed,Any,No
+R070,S074,Farmer,Any,Yes
+R071,S096,Senior Citizen,No,No
+R072,S029,Farmer,No,No
+R073,S051,Unemployed,No,Yes
+R074,S098,Student,No,Yes
+R075,S130,Farmer,Yes,No
+R076,S064,Unemployed,Any,No
+R077,S050,Student,Yes,Yes
+R078,S018,Senior Citizen,Any,No
+R079,S076,Student,Any,No
+R080,S132,Unemployed,Yes,Yes
+R081,S121,Student,No,No
+R082,S127,Student,Yes,Yes
+R083,S131,Farmer,Any,No
+R084,S074,Senior Citizen,No,Yes
+R085,S068,Any,No,Yes
+R086,S059,Any,Yes,No
+R087,S145,Student,Any,Yes
+R088,S025,Unemployed,Any,Yes
+R089,S022,Student,Yes,No
+R090,S033,Senior Citizen,Any,Yes
+R091,S020,Student,Any,Yes
+R092,S104,Student,Yes,No
+R093,S119,Unemployed,Any,No
+R094,S043,Any,No,Yes
+R095,S078,Any,Any,No
+R096,S066,Student,Any,Yes
+R097,S121,Senior Citizen,Yes,Yes
+R098,S099,Any,Yes,No
+R099,S074,Unemployed,Any,Yes
+R100,S060,Senior Citizen,Yes,Yes
+R101,S118,Any,Yes,Yes
+R102,S120,Farmer,Yes,No
+R103,S117,Unemployed,Any,Yes
+R104,S093,Any,No,Yes
+R105,S011,Farmer,Yes,No
+R106,S132,Student,Any,No
+R107,S031,Student,Yes,No
+R108,S091,Student,Yes,No
+R109,S038,Farmer,Any,No
+R110,S105,Any,Yes,Yes
+R111,S079,Student,Any,No
+R112,S113,Any,Any,No
+R113,S138,Senior Citizen,Yes,Yes
+R114,S045,Any,Yes,No
+R115,S063,Student,Yes,Yes
+R116,S046,Any,No,Yes
+R117,S088,Student,Yes,Yes
+R118,S075,Farmer,No,Yes
+R119,S008,Farmer,No,No
+R120,S078,Senior Citizen,Yes,No
+R121,S150,Unemployed,Any,No
+R122,S137,Farmer,Any,No
+R123,S129,Senior Citizen,Any,No
+R124,S046,Any,No,No
+R125,S057,Senior Citizen,No,Yes
+R126,S107,Senior Citizen,Yes,Yes
+R127,S061,Student,Yes,No
+R128,S135,Farmer,Yes,No
+R129,S041,Unemployed,No,Yes
+R130,S039,Unemployed,Any,No
+R131,S131,Unemployed,Any,No
+R132,S065,Farmer,Any,No
+R133,S143,Student,No,No
+R134,S001,Student,Any,Yes
+R135,S097,Unemployed,Any,Yes
+R136,S044,Farmer,No,Yes
+R137,S027,Farmer,Any,Yes
+R138,S093,Senior Citizen,Yes,Yes
+R139,S086,Unemployed,Any,No
+R140,S131,Any,Yes,No
+R141,S079,Any,Yes,Yes
+R142,S005,Student,No,No
+R143,S021,Unemployed,Yes,Yes
+R144,S098,Student,Yes,No
+R145,S148,Student,Any,Yes
+R146,S067,Senior Citizen,Yes,Yes
+R147,S016,Unemployed,Any,No
+R148,S018,Unemployed,Yes,Yes
+R149,S076,Farmer,Any,No
+R150,S085,Unemployed,Yes,No
+R151,S074,Student,Any,Yes
+R152,S112,Farmer,No,Yes
+R153,S045,Farmer,Yes,No
+R154,S072,Farmer,No,No
+R155,S062,Unemployed,No,Yes
+R156,S110,Unemployed,Any,No
+R157,S114,Senior Citizen,Any,Yes
+R158,S032,Student,Yes,Yes
+R159,S076,Any,Any,Yes
+R160,S132,Farmer,Any,No
+R161,S077,Senior Citizen,Yes,No
+R162,S132,Any,No,Yes
+R163,S052,Any,Any,No
+R164,S103,Any,Yes,No
+R165,S128,Senior Citizen,Any,Yes
+R166,S103,Student,No,No
+R167,S103,Farmer,No,Yes
+R168,S082,Any,No,Yes
+R169,S139,Unemployed,No,No
+R170,S150,Student,Yes,Yes
+R171,S144,Any,Any,Yes
+R172,S014,Student,Yes,No
+R173,S140,Unemployed,Yes,Yes
+R174,S081,Unemployed,Yes,No
+R175,S075,Senior Citizen,No,Yes
+R176,S064,Unemployed,Any,Yes
+R177,S042,Any,Yes,Yes
+R178,S108,Senior Citizen,Any,No
+R179,S136,Unemployed,No,No
+R180,S127,Farmer,Yes,No
+R181,S118,Senior Citizen,No,Yes
+R182,S007,Senior Citizen,No,Yes
+R183,S003,Any,Yes,No
+R184,S008,Unemployed,No,No
+R185,S117,Any,Any,No
+R186,S103,Student,No,Yes
+R187,S075,Farmer,Yes,Yes
+R188,S048,Unemployed,No,Yes
+R189,S064,Senior Citizen,No,Yes
+R190,S003,Farmer,No,Yes
+R191,S045,Senior Citizen,No,Yes
+R192,S072,Senior Citizen,Yes,No
+R193,S086,Student,No,No
+R194,S036,Any,Yes,No
+R195,S080,Student,No,Yes
+R196,S122,Farmer,Yes,No
+R197,S054,Student,No,Yes
+R198,S098,Any,Any,Yes
+R199,S029,Any,Any,Yes
+R200,S055,Student,Yes,Yes

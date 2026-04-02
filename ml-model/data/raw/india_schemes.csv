@@ -1,0 +1,151 @@
+scheme_id,scheme_name,target_group,min_age,max_age,max_income,category,gender,state,benefit_type
+S001,Indian Government Welfare Scheme 1,Disabled,13,90,300000,SC,Male,Maharashtra,Pension
+S002,Indian Government Welfare Scheme 2,Unemployed,3,100,500000,OBC,Male,Kerala,Insurance
+S003,Indian Government Welfare Scheme 3,Senior Citizen,19,92,300000,ALL,ALL,Maharashtra,Health
+S004,Indian Government Welfare Scheme 4,Women,6,65,200000,ALL,Male,Maharashtra,Pension
+S005,Indian Government Welfare Scheme 5,Student,23,93,500000,OBC,ALL,ALL,Education
+S006,Indian Government Welfare Scheme 6,Women,23,92,250000,ALL,Male,ALL,Pension
+S007,Indian Government Welfare Scheme 7,Disabled,5,97,500000,ST,ALL,ALL,Health
+S008,Indian Government Welfare Scheme 8,Unemployed,21,80,300000,General,Male,Telangana,Insurance
+S009,Indian Government Welfare Scheme 9,Student,11,93,150000,OBC,Male,Tamil Nadu,Health
+S010,Indian Government Welfare Scheme 10,Senior Citizen,24,72,150000,SC,ALL,Telangana,Housing
+S011,Indian Government Welfare Scheme 11,Unemployed,7,58,500000,ALL,ALL,Andhra Pradesh,Insurance
+S012,Indian Government Welfare Scheme 12,Unemployed,2,97,200000,ALL,Male,Karnataka,Education
+S013,Indian Government Welfare Scheme 13,Women,15,67,150000,SC,Male,Karnataka,Insurance
+S014,Indian Government Welfare Scheme 14,Senior Citizen,9,41,250000,General,Female,Telangana,Education
+S015,Indian Government Welfare Scheme 15,Farmer,5,70,250000,ST,Male,Maharashtra,Health
+S016,Indian Government Welfare Scheme 16,Farmer,6,42,500000,SC,Male,Maharashtra,Agriculture
+S017,Indian Government Welfare Scheme 17,Senior Citizen,9,72,300000,ST,ALL,Telangana,Employment
+S018,Indian Government Welfare Scheme 18,Unemployed,0,54,500000,General,Female,Andhra Pradesh,Insurance
+S019,Indian Government Welfare Scheme 19,Women,15,98,150000,ALL,ALL,ALL,Housing
+S020,Indian Government Welfare Scheme 20,Farmer,25,78,200000,General,Male,Telangana,Employment
+S021,Indian Government Welfare Scheme 21,Unemployed,1,88,200000,ALL,Male,Maharashtra,Agriculture
+S022,Indian Government Welfare Scheme 22,Unemployed,11,83,250000,ST,ALL,Kerala,Pension
+S023,Indian Government Welfare Scheme 23,Senior Citizen,2,94,200000,SC,Male,Karnataka,Insurance
+S024,Indian Government Welfare Scheme 24,Senior Citizen,21,54,250000,ALL,ALL,Maharashtra,Housing
+S025,Indian Government Welfare Scheme 25,General,25,70,250000,ALL,ALL,Kerala,Education
+S026,Indian Government Welfare Scheme 26,General,19,82,250000,General,Male,Karnataka,Education
+S027,Indian Government Welfare Scheme 27,Women,0,61,150000,ALL,Male,Andhra Pradesh,Housing
+S028,Indian Government Welfare Scheme 28,Student,7,42,200000,SC,Female,Telangana,Education
+S029,Indian Government Welfare Scheme 29,Unemployed,9,92,300000,OBC,Female,ALL,Insurance
+S030,Indian Government Welfare Scheme 30,Senior Citizen,16,65,200000,General,ALL,ALL,Housing
+S031,Indian Government Welfare Scheme 31,Student,4,49,250000,SC,Female,Karnataka,Housing
+S032,Indian Government Welfare Scheme 32,General,20,45,500000,General,ALL,Maharashtra,Pension
+S033,Indian Government Welfare Scheme 33,Disabled,3,87,500000,OBC,ALL,ALL,Employment
+S034,Indian Government Welfare Scheme 34,General,12,79,200000,ST,ALL,Andhra Pradesh,Education
+S035,Indian Government Welfare Scheme 35,Farmer,5,75,300000,SC,ALL,Tamil Nadu,Agriculture
+S036,Indian Government Welfare Scheme 36,Senior Citizen,19,76,300000,ST,ALL,Maharashtra,Housing
+S037,Indian Government Welfare Scheme 37,Senior Citizen,8,94,200000,ST,Female,Telangana,Employment
+S038,Indian Government Welfare Scheme 38,Unemployed,11,47,150000,ST,Male,Maharashtra,Insurance
+S039,Indian Government Welfare Scheme 39,Unemployed,2,87,200000,SC,Female,Kerala,Housing
+S040,Indian Government Welfare Scheme 40,Disabled,13,82,250000,SC,Male,Maharashtra,Pension
+S041,Indian Government Welfare Scheme 41,General,10,90,300000,General,ALL,Kerala,Agriculture
+S042,Indian Government Welfare Scheme 42,Student,14,59,200000,OBC,ALL,Kerala,Employment
+S043,Indian Government Welfare Scheme 43,Senior Citizen,7,54,250000,OBC,Female,ALL,Pension
+S044,Indian Government Welfare Scheme 44,Student,16,57,150000,ALL,Female,Karnataka,Employment
+S045,Indian Government Welfare Scheme 45,General,14,78,150000,ALL,Female,Andhra Pradesh,Housing
+S046,Indian Government Welfare Scheme 46,Senior Citizen,18,56,500000,OBC,ALL,Telangana,Pension
+S047,Indian Government Welfare Scheme 47,Unemployed,2,87,150000,General,Male,Kerala,Agriculture
+S048,Indian Government Welfare Scheme 48,Disabled,6,60,150000,SC,Female,Telangana,Insurance
+S049,Indian Government Welfare Scheme 49,Disabled,12,63,150000,General,ALL,Karnataka,Employment
+S050,Indian Government Welfare Scheme 50,Senior Citizen,3,96,200000,General,Male,Telangana,Education
+S051,Indian Government Welfare Scheme 51,Student,17,42,150000,ALL,Male,Andhra Pradesh,Housing
+S052,Indian Government Welfare Scheme 52,Women,14,72,500000,OBC,ALL,Andhra Pradesh,Housing
+S053,Indian Government Welfare Scheme 53,Farmer,17,43,500000,SC,Female,Kerala,Pension
+S054,Indian Government Welfare Scheme 54,Unemployed,22,83,500000,ST,ALL,Maharashtra,Agriculture
+S055,Indian Government Welfare Scheme 55,Unemployed,8,80,500000,ST,ALL,Andhra Pradesh,Employment
+S056,Indian Government Welfare Scheme 56,General,1,61,150000,ST,ALL,Tamil Nadu,Education
+S057,Indian Government Welfare Scheme 57,Disabled,17,70,150000,SC,Female,Karnataka,Education
+S058,Indian Government Welfare Scheme 58,Student,18,85,500000,ALL,Female,Tamil Nadu,Employment
+S059,Indian Government Welfare Scheme 59,Disabled,16,85,250000,ST,ALL,ALL,Employment
+S060,Indian Government Welfare Scheme 60,Women,15,95,500000,SC,ALL,Kerala,Agriculture
+S061,Indian Government Welfare Scheme 61,Unemployed,7,68,250000,SC,ALL,Karnataka,Education
+S062,Indian Government Welfare Scheme 62,Farmer,0,66,250000,SC,Male,ALL,Employment
+S063,Indian Government Welfare Scheme 63,Women,5,92,300000,ALL,Female,Kerala,Pension
+S064,Indian Government Welfare Scheme 64,Farmer,17,40,300000,General,Male,Maharashtra,Education
+S065,Indian Government Welfare Scheme 65,Women,14,42,250000,ST,ALL,Tamil Nadu,Employment
+S066,Indian Government Welfare Scheme 66,Women,14,87,250000,General,ALL,Andhra Pradesh,Employment
+S067,Indian Government Welfare Scheme 67,General,16,79,200000,General,Female,Tamil Nadu,Health
+S068,Indian Government Welfare Scheme 68,Women,13,93,500000,SC,Male,Telangana,Employment
+S069,Indian Government Welfare Scheme 69,Senior Citizen,20,67,150000,ALL,ALL,Telangana,Agriculture
+S070,Indian Government Welfare Scheme 70,Unemployed,7,42,200000,ALL,Male,Andhra Pradesh,Health
+S071,Indian Government Welfare Scheme 71,Farmer,2,90,500000,ALL,Male,Kerala,Pension
+S072,Indian Government Welfare Scheme 72,Student,8,98,500000,OBC,ALL,Andhra Pradesh,Agriculture
+S073,Indian Government Welfare Scheme 73,General,6,43,200000,ST,Male,ALL,Health
+S074,Indian Government Welfare Scheme 74,Unemployed,7,49,300000,ST,Female,Telangana,Health
+S075,Indian Government Welfare Scheme 75,Unemployed,8,73,300000,ST,Female,Maharashtra,Education
+S076,Indian Government Welfare Scheme 76,Disabled,25,70,200000,OBC,Male,Telangana,Health
+S077,Indian Government Welfare Scheme 77,General,21,80,250000,SC,Male,Kerala,Insurance
+S078,Indian Government Welfare Scheme 78,Women,12,56,200000,ALL,ALL,Karnataka,Insurance
+S079,Indian Government Welfare Scheme 79,Student,18,42,300000,General,ALL,Maharashtra,Education
+S080,Indian Government Welfare Scheme 80,General,23,66,200000,ST,ALL,Maharashtra,Insurance
+S081,Indian Government Welfare Scheme 81,Disabled,23,79,300000,ST,Male,Kerala,Employment
+S082,Indian Government Welfare Scheme 82,Unemployed,22,83,150000,General,Female,Telangana,Education
+S083,Indian Government Welfare Scheme 83,Farmer,19,100,300000,OBC,ALL,Kerala,Pension
+S084,Indian Government Welfare Scheme 84,Disabled,6,63,250000,General,Male,Telangana,Education
+S085,Indian Government Welfare Scheme 85,Student,11,43,300000,General,Male,Andhra Pradesh,Health
+S086,Indian Government Welfare Scheme 86,Student,1,71,500000,OBC,Male,Telangana,Employment
+S087,Indian Government Welfare Scheme 87,Women,15,77,200000,ST,Male,ALL,Health
+S088,Indian Government Welfare Scheme 88,Farmer,18,80,300000,General,Female,Andhra Pradesh,Education
+S089,Indian Government Welfare Scheme 89,General,15,53,250000,SC,Male,Maharashtra,Housing
+S090,Indian Government Welfare Scheme 90,Unemployed,1,54,300000,OBC,ALL,Telangana,Housing
+S091,Indian Government Welfare Scheme 91,Student,11,100,300000,ST,Male,Maharashtra,Pension
+S092,Indian Government Welfare Scheme 92,Farmer,8,62,150000,ALL,Female,Andhra Pradesh,Education
+S093,Indian Government Welfare Scheme 93,Student,8,71,500000,General,Male,Andhra Pradesh,Agriculture
+S094,Indian Government Welfare Scheme 94,Farmer,16,98,200000,OBC,Male,ALL,Education
+S095,Indian Government Welfare Scheme 95,Disabled,7,93,250000,ST,Male,Maharashtra,Agriculture
+S096,Indian Government Welfare Scheme 96,Women,17,56,500000,General,Female,Tamil Nadu,Health
+S097,Indian Government Welfare Scheme 97,Senior Citizen,11,45,200000,ALL,ALL,Karnataka,Agriculture
+S098,Indian Government Welfare Scheme 98,Disabled,18,100,150000,SC,Female,ALL,Agriculture
+S099,Indian Government Welfare Scheme 99,Farmer,16,99,200000,OBC,Male,ALL,Insurance
+S100,Indian Government Welfare Scheme 100,Student,14,95,200000,OBC,ALL,Andhra Pradesh,Health
+S101,Indian Government Welfare Scheme 101,Senior Citizen,6,90,150000,General,ALL,Tamil Nadu,Health
+S102,Indian Government Welfare Scheme 102,Disabled,22,71,500000,ALL,Male,Maharashtra,Housing
+S103,Indian Government Welfare Scheme 103,Senior Citizen,10,100,250000,SC,Female,Karnataka,Pension
+S104,Indian Government Welfare Scheme 104,Farmer,8,62,200000,ST,ALL,Tamil Nadu,Health
+S105,Indian Government Welfare Scheme 105,General,11,86,150000,General,Female,Karnataka,Health
+S106,Indian Government Welfare Scheme 106,Unemployed,22,72,500000,SC,Female,Telangana,Health
+S107,Indian Government Welfare Scheme 107,General,4,54,200000,OBC,Female,Telangana,Agriculture
+S108,Indian Government Welfare Scheme 108,Student,22,53,250000,General,Male,Telangana,Health
+S109,Indian Government Welfare Scheme 109,Unemployed,17,69,250000,ST,Female,ALL,Pension
+S110,Indian Government Welfare Scheme 110,Student,0,82,300000,OBC,ALL,Kerala,Education
+S111,Indian Government Welfare Scheme 111,General,1,45,250000,ST,Female,Telangana,Health
+S112,Indian Government Welfare Scheme 112,Disabled,9,92,200000,ST,Female,ALL,Agriculture
+S113,Indian Government Welfare Scheme 113,Unemployed,11,56,300000,General,Male,Maharashtra,Education
+S114,Indian Government Welfare Scheme 114,General,3,80,150000,OBC,ALL,Telangana,Health
+S115,Indian Government Welfare Scheme 115,Unemployed,0,64,300000,General,Female,Maharashtra,Housing
+S116,Indian Government Welfare Scheme 116,Senior Citizen,11,61,500000,ALL,ALL,Andhra Pradesh,Agriculture
+S117,Indian Government Welfare Scheme 117,General,24,88,250000,ALL,Male,ALL,Insurance
+S118,Indian Government Welfare Scheme 118,General,13,44,200000,ALL,Male,Andhra Pradesh,Pension
+S119,Indian Government Welfare Scheme 119,General,7,60,250000,SC,ALL,Telangana,Employment
+S120,Indian Government Welfare Scheme 120,Women,23,85,300000,ST,Female,Tamil Nadu,Education
+S121,Indian Government Welfare Scheme 121,Women,12,98,200000,General,Female,Andhra Pradesh,Agriculture
+S122,Indian Government Welfare Scheme 122,Women,8,62,500000,ST,Female,ALL,Insurance
+S123,Indian Government Welfare Scheme 123,Senior Citizen,0,80,500000,OBC,Male,Karnataka,Education
+S124,Indian Government Welfare Scheme 124,Senior Citizen,0,70,150000,ALL,ALL,Andhra Pradesh,Pension
+S125,Indian Government Welfare Scheme 125,Women,3,59,150000,OBC,ALL,Tamil Nadu,Education
+S126,Indian Government Welfare Scheme 126,Disabled,24,56,300000,ST,ALL,Kerala,Agriculture
+S127,Indian Government Welfare Scheme 127,Student,8,84,200000,SC,ALL,Andhra Pradesh,Education
+S128,Indian Government Welfare Scheme 128,General,11,98,250000,SC,Male,Andhra Pradesh,Health
+S129,Indian Government Welfare Scheme 129,Women,5,90,200000,General,ALL,Maharashtra,Agriculture
+S130,Indian Government Welfare Scheme 130,Farmer,19,52,500000,ST,ALL,ALL,Employment
+S131,Indian Government Welfare Scheme 131,Unemployed,17,96,250000,ST,Male,Kerala,Pension
+S132,Indian Government Welfare Scheme 132,General,0,63,300000,SC,Male,Karnataka,Employment
+S133,Indian Government Welfare Scheme 133,Student,4,98,300000,SC,Female,ALL,Education
+S134,Indian Government Welfare Scheme 134,Unemployed,15,68,250000,General,Male,ALL,Housing
+S135,Indian Government Welfare Scheme 135,Women,3,63,300000,SC,Male,Tamil Nadu,Agriculture
+S136,Indian Government Welfare Scheme 136,Farmer,8,75,250000,SC,ALL,ALL,Education
+S137,Indian Government Welfare Scheme 137,Disabled,24,51,500000,General,ALL,Telangana,Insurance
+S138,Indian Government Welfare Scheme 138,Senior Citizen,16,69,250000,General,Female,Kerala,Insurance
+S139,Indian Government Welfare Scheme 139,Student,6,85,150000,General,Female,Andhra Pradesh,Health
+S140,Indian Government Welfare Scheme 140,General,11,41,150000,ALL,Male,Kerala,Employment
+S141,Indian Government Welfare Scheme 141,Women,24,87,150000,OBC,Female,Telangana,Housing
+S142,Indian Government Welfare Scheme 142,Disabled,2,74,500000,SC,Male,Tamil Nadu,Insurance
+S143,Indian Government Welfare Scheme 143,Farmer,12,51,300000,OBC,Female,Tamil Nadu,Agriculture
+S144,Indian Government Welfare Scheme 144,Farmer,13,98,250000,ST,ALL,ALL,Pension
+S145,Indian Government Welfare Scheme 145,Unemployed,2,84,500000,ALL,ALL,Maharashtra,Health
+S146,Indian Government Welfare Scheme 146,Senior Citizen,13,42,200000,ST,ALL,Andhra Pradesh,Health
+S147,Indian Government Welfare Scheme 147,Farmer,9,63,300000,General,Male,Karnataka,Health
+S148,Indian Government Welfare Scheme 148,Senior Citizen,16,67,500000,OBC,ALL,ALL,Pension
+S149,Indian Government Welfare Scheme 149,Farmer,20,78,200000,General,Female,ALL,Health
+S150,Indian Government Welfare Scheme 150,Senior Citizen,19,56,250000,ST,Male,Maharashtra,Employment
