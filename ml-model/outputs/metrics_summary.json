@@ -1,0 +1,57 @@
+{
+  "dataset": {
+    "rows": 30000,
+    "columns": 10,
+    "features": [
+      "age",
+      "gender",
+      "category",
+      "state",
+      "occupation",
+      "annual_income",
+      "disability",
+      "is_minority"
+    ],
+    "target": "eligible",
+    "class_distribution": {
+      "0": 19919,
+      "1": 10081
+    }
+  },
+  "decision_tree": {
+    "train_accuracy": 0.841625,
+    "test_accuracy": 0.7776666666666666,
+    "precision": 0.7169211195928753,
+    "recall": 0.5590277777777778,
+    "f1": 0.6282051282051282,
+    "auc": 0.8025913176515587,
+    "confusion_matrix": [
+      [
+        3539,
+        445
+      ],
+      [
+        889,
+        1127
+      ]
+    ]
+  },
+  "random_forest": {
+    "train_accuracy": 0.841625,
+    "test_accuracy": 0.7786666666666666,
+    "precision": 0.6952326901248581,
+    "recall": 0.6076388888888888,
+    "f1": 0.6484912652196929,
+    "auc": 0.8211562146403073,
+    "confusion_matrix": [
+      [
+        3447,
+        537
+      ],
+      [
+        791,
+        1225
+      ]
+    ]
+  }
+}
