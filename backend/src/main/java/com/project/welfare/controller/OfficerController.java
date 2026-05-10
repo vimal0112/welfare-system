@@ -17,7 +17,10 @@ import com.project.welfare.dto.OfficerActionRequestDto;
 import com.project.welfare.dto.OfficerApplicationDetailDto;
 import com.project.welfare.service.OfficerApplicationService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://welfare-frontends.onrender.com"
+})
 @RestController
 @RequestMapping("/api/officer")
 public class OfficerController {

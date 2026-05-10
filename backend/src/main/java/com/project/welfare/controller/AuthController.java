@@ -14,7 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.project.welfare.Entity.User;
 import com.project.welfare.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://welfare-frontends.onrender.com"
+})
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

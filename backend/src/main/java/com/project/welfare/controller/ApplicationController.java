@@ -19,7 +19,10 @@ import com.project.welfare.repository.ApplicationRepository;
 import com.project.welfare.repository.SchemeRepository;
 import com.project.welfare.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://welfare-frontends.onrender.com"
+})
 @RestController
 @RequestMapping("/api/applications")
 public class ApplicationController {

@@ -29,7 +29,10 @@ import com.project.welfare.dto.AdminUserRoleUpdateDto;
 import com.project.welfare.dto.AdminUserStatusUpdateDto;
 import com.project.welfare.service.AdminService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://welfare-frontends.onrender.com"
+})
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {

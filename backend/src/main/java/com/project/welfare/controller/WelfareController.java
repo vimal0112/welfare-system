@@ -25,7 +25,10 @@ import com.project.welfare.service.MlService;
 import com.project.welfare.service.SchemeRecommendationService;
 import com.project.welfare.repository.SchemeRepository;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://welfare-frontends.onrender.com"
+})
 @RestController
 @RequestMapping("/api/welfare")
 public class WelfareController {
